@@ -92,5 +92,14 @@
   <ItemGroup>
     <None Include="Resources\Minimaze.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ajuda-15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ajuda-15 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

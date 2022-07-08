@@ -15,6 +15,9 @@ namespace calculadora_csharp
 {
     public partial class Form1 : Form
     {
+        //Feito por Gabriel Vismeck
+
+        //ÍNICIO DO FORMS
         public Form1()
         {
             InitializeComponent();
@@ -94,7 +97,9 @@ namespace calculadora_csharp
                 Application.Exit();
             }
         }
+        //FIM DO FORMS
 
+        //COMEÇO DA CALCULADORA
         decimal valor1 = 0, valor2 = 0;
         string operacao = "";
 
@@ -269,5 +274,6 @@ namespace calculadora_csharp
                 }
 
         }
+        //FIM DA CALCULADORA
     }
 }

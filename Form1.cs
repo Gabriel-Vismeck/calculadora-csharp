@@ -21,9 +21,12 @@ namespace calculadora_csharp
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            textBox1.Enabled = false;
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            pictureBox1.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, pictureBox1.Width, pictureBox1.Height, 20, 20));
+            pictureBox2.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, pictureBox2.Width, pictureBox2.Height, 20, 20));
             button1.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, button1.Width, button1.Height, 20, 20));
             button2.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, button2.Width, button2.Height, 20, 20));
             button3.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, button3.Width, button3.Height, 20, 20));
@@ -70,6 +73,7 @@ namespace calculadora_csharp
         private void exitButton_Click(object sender, EventArgs e)
         {
             fadeTimer.Start();
+            
         }
 
         private void minimizeButton_Click(object sender, EventArgs e)
@@ -90,11 +94,13 @@ namespace calculadora_csharp
             }
         }
 
-       
-
-
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
 
         //FORM
+
 
 
     }

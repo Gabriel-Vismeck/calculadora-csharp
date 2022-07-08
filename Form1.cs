@@ -164,7 +164,7 @@ namespace calculadora_csharp
             }
             else
             {
-                MessageBox.Show("Informe um valor antes de efetuar a conta");
+                MessageBox.Show("Informe um valor antes de efetuar a conta.");
             }
 
             
@@ -181,7 +181,7 @@ namespace calculadora_csharp
             }
             else
             {
-                MessageBox.Show("Informe um valor antes de efetuar a conta");
+                MessageBox.Show("Informe um valor antes de efetuar a conta.");
             }
 
         }
@@ -197,7 +197,7 @@ namespace calculadora_csharp
             }
             else
             {
-                MessageBox.Show("Informe um valor antes de efetuar a conta");
+                MessageBox.Show("Informe um valor antes de efetuar a conta.");
             }
 
         }
@@ -213,7 +213,7 @@ namespace calculadora_csharp
             }
             else
             {
-                MessageBox.Show("Informe um valor antes de efetuar a conta");
+                MessageBox.Show("Informe um valor antes de efetuar a conta.");
             }
 
         }
@@ -232,7 +232,15 @@ namespace calculadora_csharp
 
         private void button19_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Feito por Gabriel Vismeck :)");
+            MessageBox.Show("Calculadora básica e estéticamente estilosa" + 
+            Environment.NewLine + 
+            Environment.NewLine + "Funciona como uma calculadora comum"+ "Instruções de uso: " +
+            Environment.NewLine + "• Aperte nos número pra escolher os operandos." +
+            Environment.NewLine + "• Aperte nos símbolos para escolher os operadores." +
+            Environment.NewLine + "• Você não pode clicar num operador sem escolher um operando." +
+            Environment.NewLine + "• CE apaga apenas a conta feita no visor, mas não a conta geral." +
+            Environment.NewLine + "• C apaga toda a conta." +
+            Environment.NewLine + Environment.NewLine + Environment.NewLine +"Feita por Gabriel Vismeck :)");
         }
 
         private void button18_Click(object sender, EventArgs e)

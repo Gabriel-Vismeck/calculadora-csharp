@@ -21,9 +21,15 @@
 * Boa responsividade nos comandos.
 
 ##
-Programa feito usando Visual Studio 2022 na Linguagem C#.
+Programa feito usando Visual Studio 2022 na Linguagem C#. 
+<br>
+<br>
+Para baixar a calculadora e testar, basta clicar bem aqui: 
+<a href="https://github.com/Gabriel-Vismeck/calculadora-csharp/raw/main/bin/Debug/calculadora-csharp.exe">Calculadora</a>.
+<br>
+Caso queira ir manualmente, o arquivo executável se encontra em: 
+<a href="https://github.com/Gabriel-Vismeck/calculadora-csharp/tree/main/bin/Debug">/bin/Debug/ <a>.
 ##
-
 >"Nós só podemos ver um pouco do futuro, mas o suficiente para perceber que há muito a fazer."
 >
 >-*Alan Turing*
